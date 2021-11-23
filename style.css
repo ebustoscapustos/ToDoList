@@ -1,0 +1,128 @@
+body {
+    color: #190e29;
+    margin: 0;
+    font-size: 20px;
+    background-color: #b6c6eb;
+    font-family: "Outfit", sans-serif;
+}
+.main-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #4d3b67;
+    border-bottom: 5px solid #190e29;
+    border-top: 5px solid #190e29;
+}
+.container {
+    margin: 0 150px;
+    border-left: 2px solid #190e29;
+    border-right: 2px solid #190e29;
+    min-height: 1000px;
+}
+h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+label {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.tasks-sort-menu input {
+    width: 20px;
+    height: 20px;
+}
+li {
+    padding: 10px 0;
+    border-bottom: 2px solid #4d3b67;
+    margin: 2px 10px;
+    margin-bottom: 2px;
+    display: flex;
+    list-style: none;
+}
+button {
+    margin: auto 5px;
+    padding: 3px 15px;
+    border: 2px solid #190e29;
+    font-size: 20px;
+    border-radius: 15px;
+    background: linear-gradient(to top, #362353, #3a3a6e);
+    color: #fff;
+}
+.tasks-menu {
+    margin: 60px 0;
+    display: flex;
+    flex-direction: column;
+}
+.task-create-field {
+    border: 2px solid #4d3b67;
+    background-color: rgba(54, 35, 84, 0.1);
+    border-radius: 10px;
+    height: 29px;
+    width: 500px;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0 10px;
+}
+.tasks-sort-menu {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+.tasks-control-menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+li div {
+    display: flex;
+}
+p {
+    margin: 0 10px;
+    margin-top: 3px;
+}
+li input {
+    margin: 0 10px;
+    border: 2px solid #4d3b67;
+    background-color: rgba(54, 35, 84, 0.1);
+    border-radius: 10px;
+    height: 29px;
+    width: 500px;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0 10px; 
+}
+.task-field {
+    background-color: #cbd7f3;
+    padding: 0;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+button:hover {
+    background: linear-gradient(to top, #523f6e, #5c5c88);
+}
+button:active {
+    background: linear-gradient(to top, #3a3a6e, #362353);
+}
+.task-create-field:hover {
+    background-color: rgba(54, 35, 84, 0.2);
+}
+.task-create-field:focus {
+    background-color: rgba(54, 35, 84, 0.2);
+}
+li input:hover {
+    background-color: rgba(54, 35, 84, 0.2);
+}
+li input:focus {
+    background-color: rgba(54, 35, 84, 0.2);
+}
+.task-completed {
+    padding: 9px 0;
+    margin: 2px 0;
+    background-color: rgba(54, 35, 84, 0.2);
+    border: 2px solid #4d3b67;
+    border-radius: 15px;
+}
+.task-completed p {
+    margin-left: 20px;
+}
